@@ -20,10 +20,10 @@ This repo includes a great [gulp](http://gulpjs.com/) build process. If you run 
 5. Anytime you modify files (scss, html, js, images) and save your changes the demo page will reload automatically! *Note: this does not apply to css, css is compiled from the Sass file. Edit the Sass file not the css file ;)*
 
 
-## Photography
+## Photography License
 The background photo used was taken by Brocken Inaglory and is available under the Creative Commons license.
 For more information on this photo and acceptable use please visit [Wikimedia Commons](http://commons.wikimedia.org/wiki/File:Golden_Gate_Bridge,_San_Francisco_and_Sutro_Tower.jpg).
 
 
-## License
+## Repository License
 MIT - [http://firebase.mit-license.org](http://firebase.mit-license.org)
