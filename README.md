@@ -14,8 +14,10 @@ To use the demo follow the steps below:
 You can build your own chat. This goes through a couple phases, starting at 0. Clone or download the repo and open up [tutorial.html](https://github.com/katfang/live-cloud-chat/blob/master/tutorial.html) in the browser. You'll be adding code to [js/tutorial.js](https://github.com/katfang/live-cloud-chat/blob/master/js/tutorial.js), which starts at phase 0. All the UI is built, and just waiting for you to add the logic. 
 
 1. [js/phase0.js](https://live-cloud-chat.firebaseapp.com/phase0.html) has no interesting logic. 
-2. [js/phase1.js](https://live-cloud-chat.firebaseapp.com/phase1.html) adds chat capabilities. It can send and receive messages, and you can set the sender username. 
+2. [js/phase1.js](https://live-cloud-chat.firebaseapp.com/phase1.html) adds chat capabilities. It can send and receive messages, and you can set the sender username. Be sure to change Firebase URL in js/tutorial.js to one you can access (see Basic Development).
 3. [js/phase2.js](https://live-cloud-chat.firebaseapp.com/phase2.html) adds social auth. You can authenticate with a social provider, and it will automatically grab the display name or user name.
+
+If you get an error in while authenticating in phase2 that says `TRANSPORT_UNAVAILABLE`, that's because authentication won't work with local files (you can read more [here](https://www.firebase.com/docs/web/guide/user-auth.html)). If you have python, you can run `python -m SimpleHTPPServer` to serve the files and then go to `localhost:8000` or check out [Firebase hosting](https://www.firebase.com/docs/hosting/quickstart.html) to push your files to the web! 
 
 ## Advanced Development
 This repo includes a great [gulp](http://gulpjs.com/) build process. If you run  [gulp](http://gulpjs.com/) the sass with get preprocessed, auto prefixed, minified, and opened automatically in your browser (Chrome). The page will also auto refresh anytime you make changes to js, scss, html, or images. This makes development fast and easy. To setup this environment please follow the steps below:
