@@ -10,8 +10,8 @@ To use the demo follow the steps below:
 2. Open js/chat.js and replace the Firebase URL with one from your own account. You can [sign up for free](https://www.firebase.com/).
 3. Open index.html in your browser and have fun!
 
-## Follow the Phases
-You can build your own chat following the different phases. Try building it in js/tutorial.js, which starts at phase 0. All the UI is built, and just waiting for you to add the logic. 
+## Tutorial Mode 
+You can build your own chat. This goes through a couple phases, starting at 0. Clone or download the repo and open up [tutorial.html](https://github.com/katfang/live-cloud-chat/blob/master/tutorial.html) in the browser. You'll be adding code to [js/tutorial.js](https://github.com/katfang/live-cloud-chat/blob/master/js/tutorial.js), which starts at phase 0. All the UI is built, and just waiting for you to add the logic. 
 
 1. [js/phase0.js](https://live-cloud-chat.firebaseapp.com/phase0.html) has no interesting logic. 
 2. [js/phase1.js](https://live-cloud-chat.firebaseapp.com/phase1.html) adds chat capabilities. It can send and receive messages, and you can set the sender username. 
