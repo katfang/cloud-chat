@@ -2,10 +2,9 @@ $(document).ready(function() {
 
   /*
   * Create a Firebase Reference
-  *
   */
 
-  var messagesRef = new Firebase('https://live-cloud-chat.firebaseio.com/');
+  var messagesRef = new Firebase('https://cloud-chat-demo.firebaseio.com/');
 
 
   /*
@@ -16,6 +15,7 @@ $(document).ready(function() {
   * These vars are prefixed with $ to indicate
   * they are registered with jQuery.
   */
+
   var $newMessage = $('#new-message');
   var $username = $('#username');
   var $messages = $('#messages');
@@ -24,7 +24,7 @@ $(document).ready(function() {
   /*
   * Load messages from Firebase
   *
-  * This metthod is called when the existing
+  * This method is called when the existing
   * messages are first received and when new
   * message are added to Firebase.
   */

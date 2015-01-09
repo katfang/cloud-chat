@@ -25,9 +25,13 @@
         <div class='example-chat-username-field'>
           <div class="example-chat-avatar"><i class="fa fa-bolt"></i></div>
           <input type='text' id='username' placeholder='Enter your name...'>
-          <div class="example-chat-login-options">
-          <div class="example-chat-login"><i class="fa fa-facebook"></i></div>
-          <div class="example-chat-login"><i class="fa fa-github"></i></div>
+          <div class="example-chat-login-options" id="login">
+            <div id="facebook-login" class="example-chat-login"><i class="fa fa-facebook"></i></div>
+            <div id="github-login" class="example-chat-login"><i class="fa fa-github"></i></div>
+            <div id="twitter-login" class="example-chat-login"><i class="fa fa-twitter"></i></div>
+          </div>
+          <div class="example-chat-login-options hidden" id="logout">
+            <div id="logout-button" class="example-chat-login"><i class="fa fa-sign-out"></i></div>
           </div>
         </div>
       </header>

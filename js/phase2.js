@@ -3,7 +3,8 @@ $(document).ready(function() {
   /*
   * Create a Firebase Reference
   */
-  var messagesRef = new Firebase('https://live-cloud-chat.firebaseio.com/messages');
+
+  var messagesRef = new Firebase('https://cloud-chat-demo.firebaseio.com/');
 
 
   /*
@@ -14,6 +15,7 @@ $(document).ready(function() {
   * These vars are prefixed with $ to indicate
   * they are registered with jQuery.
   */
+
   var $newMessage = $('#new-message');
   var $username = $('#username');
   var $messages = $('#messages');
@@ -54,6 +56,7 @@ $(document).ready(function() {
   * on the message input field and saves
   * the data to Firebase when content is submitted.
   */
+
   $newMessage.keypress(function (e) {
     // GET FIELD VALUES
     var username = $username.val();
@@ -70,9 +73,13 @@ $(document).ready(function() {
   /*
   * Create root ref for authentication
   * 
-  * You can actually use any ref, even a child ref.
+  * You could reuse messagesRef for this.
+  * Here, we're creating a new Firebase reference, but calling it rootRef instead.
+  * References are lightweight and you can create lots of them. 
   */
+
   var rootRef = new Firebase("https://live-cloud-chat.firebaseio.com");
+
 
   /*
   * Listen for when the authentication changes.
@@ -82,6 +89,7 @@ $(document).ready(function() {
   * Otherwise, it has useful user data. 
   * https://www.firebase.com/docs/web/guide/user-auth.html
   */
+
   rootRef.onAuth(function(authData) {
     if (authData !== null) {
       // USER IS LOGGED IN, GET DISPLAY NAME FROM DATA
@@ -112,6 +120,7 @@ $(document).ready(function() {
   * These vars are prefixed with $ to indicate
   * they are registered with jQuery.
   */
+
   var $facebookLogin = $('#facebook-login');
   var $githubLogin = $('#github-login');
   var $twitterLogin = $('#twitter-login');
@@ -124,6 +133,7 @@ $(document).ready(function() {
   * Given a provider, this method will use Firebase to login with that provider.
   * Errors will be printed to the console.
   */
+
   var login = function(provider) {
     rootRef.authWithOAuthRedirect(provider, function(error, authData) {
       if (error) {
@@ -141,6 +151,7 @@ $(document).ready(function() {
   * This will log users in when they click one of the provider login buttons.
   * And log users out when they click the logout button. 
   */ 
+
   $facebookLogin.click(function() { login("facebook"); });
   $githubLogin.click(function() { login("github"); });
   $twitterLogin.click(function() { login("twitter"); });
