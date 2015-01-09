@@ -1,7 +1,7 @@
 ## Cloud Chat Demo
-Cloud chat is a realtime chat demo powered by [Firebase](https://www.firebase.com/). This example demonstrates how easy it is to create a realtime multi person chat client with javascript, html, and css. View the [live demo](http://firebase.github.io/cloud-chat/).
+Cloud chat is a realtime chat demo powered by [Firebase](https://www.firebase.com/). This example demonstrates how easy it is to create a realtime multi person chat client with javascript, html, and css. View the [live demo](https://live-cloud-chat.firebaseapp.com/).
 
-![Preview of Cloud Chat](http://firebase.github.io/cloud-chat/images/demo.jpg)(http://firebase.github.io/cloud-chat/)
+![Preview of Cloud Chat](http://firebase.github.io/cloud-chat/images/demo.jpg)(https://live-cloud-chat.firebaseapp.com/)
 
 ## Basic Development
 To use the demo follow the steps below:
