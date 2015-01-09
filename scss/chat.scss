@@ -27,7 +27,7 @@
 */
 
 body {
-  background: url('../images/clouds.jpg') no-repeat center center fixed;
+  background: url('../images/mit.jpg') no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -41,7 +41,7 @@ body {
 .example-chat {
   font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   box-shadow: 0px 10px 100px rgba(0, 0, 0, 0.4);
-  background-color: rgba(#FFF, .7);
+  background-color: rgba(#FFF, .8);
   font-size: 18px;
   line-height: 22px;
   color: #666;
@@ -64,7 +64,7 @@ body {
   */
 
   .example-chat-logo {
-    opacity: .9;
+    opacity: .95;
     width: 140px;
     height: 140px;
     position: absolute;
@@ -83,7 +83,7 @@ body {
   .example-chat-toolbar {
     padding: 10px;
     color: rgba(#FFF, .8);
-    background: rgba(#2980b9, .9);
+    background: rgba(#801829, .9);
 
     > h2 {
       margin: 0px;
@@ -127,7 +127,7 @@ body {
   */
 
   .example-chat-username-field {
-    background: rgba(#3498db, .7);
+    background: rgba(#A31F34, .7);
     padding: 10px;
     position: relative;
 
@@ -139,11 +139,35 @@ body {
       width: 40px;
       height: 40px;
       border-radius: 200px;
-      background: #3498db;
+      background: #A31F34;
       text-align: center;
       line-height: 40px;
       font-size: 20px;
-      color: darken(#3498db, 10%);
+      color: darken(#A31F34, 10%);
+    }
+    
+    .example-chat-login-options {
+      position: absolute;
+      top: 10px;
+      right: 10px; 
+    }
+    
+    .hidden {
+      display: none;
+    }
+
+    .example-chat-login {
+      float:right;
+      z-index: 1;
+      width: 40px;
+      height: 40px;
+      border-radius: 200px;
+      background: #A31F34;
+      text-align: center;
+      line-height: 40px;
+      font-size: 20px;
+      margin-left: 5px;
+      color: darken(#A31F34, 10%);
     }
 
     label {
@@ -159,6 +183,7 @@ body {
 
     input {
       padding-left: 50px;
+      padding-right: 135px;
       color: #FFF;
       height: 40px;
       font-size: 20px;
@@ -215,7 +240,7 @@ body {
     padding: 10px;
 
     .icon-chat {
-      color: rgba(#34495e, .2);
+      color: rgba(#5E121E, .2);
       position: absolute;
       top: 15px;
       left: 10px;
@@ -227,11 +252,11 @@ body {
       background: none;
       border: none;
       height: 40px;
-      color: #34495e;
+      color: #5E121E;
       padding-left: 40px;
 
       &::placeholder {
-        color: rgba(#34495e, .4);
+        color: rgba(#5E121E, .4);
       }
     }
   }

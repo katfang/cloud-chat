@@ -21,9 +21,10 @@ This repo includes a great [gulp](http://gulpjs.com/) build process. If you run 
 
 
 ## Photography License
-The background photo used was taken by Brocken Inaglory and is available under the Creative Commons license.
-For more information on this photo and acceptable use please visit [Wikimedia Commons](http://commons.wikimedia.org/wiki/File:Golden_Gate_Bridge,_San_Francisco_and_Sutro_Tower.jpg).
+The background photo used was taken by John Phelan and is available under the Creative Commons license. For more information on this photo and acceptable use, [click here](http://en.wikipedia.org/wiki/Massachusetts_Institute_of_Technology#mediaviewer/File:MIT_Building_10_and_the_Great_Dome,_Cambridge_MA.jpg). 
 
+The San Francisco image in the folder was taken by Brocken Inaglory and is available under the Creative Commons license.
+For more information on this photo and acceptable use please visit [Wikimedia Commons](http://commons.wikimedia.org/wiki/File:Golden_Gate_Bridge,_San_Francisco_and_Sutro_Tower.jpg).
 
 ## Repository License
 MIT - [http://firebase.mit-license.org](http://firebase.mit-license.org)
