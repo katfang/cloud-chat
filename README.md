@@ -12,6 +12,7 @@ To use the demo follow the steps below:
 
 ## Follow the Phases
 You can build your own chat following the different phases. Try building it in js/tutorial.js, which starts at phase 0. All the UI is built, and just waiting for you to add the logic. 
+
 1. [js/phase0.js](https://live-cloud-chat.firebaseapp.com/phase0.html) has no interesting logic. 
 2. [js/phase1.js](https://live-cloud-chat.firebaseapp.com/phase1.html) adds chat capabilities. It can send and receive messages, and you can set the sender username. 
 3. [js/phase2.js](https://live-cloud-chat.firebaseapp.com/phase2.html) adds social auth. You can authenticate with a social provider, and it will automatically grab the display name or user name.
